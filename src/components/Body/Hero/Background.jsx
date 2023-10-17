@@ -3,7 +3,7 @@ import paris from "../../../Assets/images/paris.jpg";
 import { CiLocationOn } from "react-icons/ci";
 import { PiCalendarBlank } from "react-icons/pi";
 import { BiUser } from "react-icons/bi";
-import { IoIosArrowDown } from "react-icons/io";
+// import { IoIosArrowDown } from "react-icons/io";
 
 const Background = () => {
   return (
@@ -29,11 +29,11 @@ const Background = () => {
                   <PiCalendarBlank className="absolute w-6 h-6 text-gray-400 pointer-events-none" />
                   <input
                     className="w-full pl-10 text-sm font-medium capitalize placeholder:text-sm placeholder:font-medium outline-none"
-                    type="text"
+                    type="date"
                     placeholder="Check-in-Date"
                   />
                   <div className="">
-                    <IoIosArrowDown className=" ml-3" />
+                    {/* <IoIosArrowDown className=" ml-3" /> */}
                   </div>
                 </div>
                 <div className="w-[1px] h-10 bg-slate-400"></div>

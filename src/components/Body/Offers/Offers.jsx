@@ -16,6 +16,7 @@ const Offers = () => {
         <div className=" flex items-center gap-4">
           {bestOffers.map((item) => (
             <OfferCard
+              key={item.id}
               image={item.image}
               title={item.title}
               location={item.location}
