@@ -5,7 +5,7 @@ import { bestOffers } from "../../../Assets/defaultData";
 
 const Offers = () => {
   return (
-    <div className="w-full h-max pb-8">
+    <div className="w-[100%] h-max pb-8">
       <div className=" ">
         <div className="w-full flex justify-between mb-3">
           <SubHeader Header={"Best Offer"} />
@@ -13,7 +13,7 @@ const Offers = () => {
             <button className="text-sm font-medium capitalize">view all</button>
           </div>
         </div>
-        <div className=" flex items-center gap-4">
+        <div className="w-full pb-4 flex  overflow-x-auto" id="wrapper">
           {bestOffers.map((item) => (
             <OfferCard
               key={item.id}

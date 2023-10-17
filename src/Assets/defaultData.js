@@ -115,7 +115,14 @@ export const bestOffers = [
     id: 5,
     image: hotel5,
     title: "Permanent Peace",
-    location: "Sugar Apartments/Brazil",
+    location: "Apartments/Brazil",
+    cost: "79,00",
+  },
+  {
+    id: 6,
+    image: hotel5,
+    title: "Permanent Peace",
+    location: "Apartments/Brazil",
     cost: "79,00",
   },
 ];

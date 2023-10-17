@@ -3,11 +3,11 @@ import React from "react";
 const DestinationCard = ({ image, location, rating, desc, cost }) => {
   return (
     <>
-      <div className=" w-[380px] h-36 bg-white flex items-center p-4 rounded-3xl shadow-md shadow-gray-200">
+      <div className="min-w-[350px] h-36 bg-white flex items-center p-4  rounded-3xl shadow-md shadow-gray-200">
         <div className=" w-36 h-28 rounded-2xl overflow-hidden">
           <img className="w-full h-full object-cover" src={image} alt="" />
         </div>
-        <div className=" w-full h-full flex justify-between  gap-3 flex-col ml-5">
+        <div className=" w-full h-full flex justify-between  gap-3 flex-col ml-3">
           <div className="flex justify-between items-center">
             <div className="font-bold text-base capitalize">
               <h5>{location}</h5>

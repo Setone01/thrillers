@@ -4,7 +4,7 @@ import Body from "../components/Body/Body";
 
 const index = () => {
   return (
-    <div className="">
+    <div className=" ">
       <Sidebar />
       <Body />
     </div>

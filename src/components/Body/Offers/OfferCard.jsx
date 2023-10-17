@@ -5,7 +5,7 @@ import { MdFavoriteBorder } from "react-icons/md";
 const OfferCard = ({image, title, location, cost}) => {
   return (
     <>
-      <div className="bg-white w-max h-max flex justify-centern flex-col p-4 rounded-3xl shadow-md">
+      <div className="bg-white w-max h-max mr-4 flex justify-centern flex-col p-4 rounded-3xl shadow-md">
         <div className=" w-48 h-32 rounded-2xl overflow-hidden">
           <img className="w-full h-full object-cover" src={image} alt="" />
         </div>

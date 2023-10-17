@@ -29,3 +29,7 @@ body {
 /* .ul a.active {
   color: #000;
 } */
+
+#wrapper::-webkit-scrollbar{
+  width: 0px;
+}

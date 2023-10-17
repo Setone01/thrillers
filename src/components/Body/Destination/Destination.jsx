@@ -7,7 +7,7 @@ import SubHeader from "../../SubHeading/index";
 
 const Destination = () => {
   return (
-    <div className="w-full h-52 bg-inherit mb-4 z-50">
+    <div className="w-[100%] h-52 bg-inherit mb-4 z-50">
       <div className=" flex justify-between items-center mb-4">
         <SubHeader Header={"Trending Destination"} />
         <div className=" flex justify-center items-center gap-3">
@@ -19,7 +19,7 @@ const Destination = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center gap-6 w-[1440px]">
+      <div className="w-full h-max flex gap-4 pb-4 overflow-x-auto" id="wrapper">
         {location.map((item) => (
           <DestinationCard
             key={item.id}
