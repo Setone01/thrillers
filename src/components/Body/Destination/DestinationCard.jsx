@@ -3,7 +3,7 @@ import React from "react";
 const DestinationCard = ({ image, location, rating, desc, cost }) => {
   return (
     <>
-      <div className="min-w-[350px] h-36 bg-white flex items-center p-4  rounded-3xl shadow-md shadow-gray-200">
+      <div className="min-w-[350px] h-36 bg-white flex items-center p-4  rounded-3xl shadow-md shadow-gray-200 z-20">
         <div className=" w-36 h-28 rounded-2xl overflow-hidden">
           <img className="w-full h-full object-cover" src={image} alt="" />
         </div>
@@ -31,7 +31,7 @@ const DestinationCard = ({ image, location, rating, desc, cost }) => {
             </div>
           </div>
           <div className="">
-            <p className="text-xs">{desc}</p>
+            <p className="text-[12px] text-gray-400">{desc}</p>
           </div>
           <div className="">
             <span className="text-sm font-semibold">${cost}</span>

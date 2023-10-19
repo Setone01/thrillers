@@ -19,7 +19,7 @@ const Header = () => {
     day: "numeric",
   };
   return (
-    <div className="w-full h-20 top-0 bg-white rounded-3xl flex items-center mb-6 ">
+    <div className="w-full h-20 top-0 bg-white rounded-3xl flex items-center mb-6 z-20">
       <div className=" w-full flex justify-between items-center px-6">
         <div onClick={handleClick} className="xs:block md:hidden">
           {open ? <IoMdClose size={21} /> : <MdMenu size={21} />}
@@ -29,7 +29,7 @@ const Header = () => {
             <div className="relative flex items-center">
               <FiSearch className="absolute ml-3 text-gray-400 pointer-events-none" />
               <input
-                className="pl-10 ring-[1.5px] ring-gray-500/20 rounded-md py-[8px] px-2 max-w-[50vw] text-sm outline-none "
+                className="pl-10 ring-[1.5px] ring-gray-500/20 rounded-md py-[8px] px-2 xs:w-[180px] md:w-[20vw] text-sm outline-none "
                 type="search"
                 placeholder="Search any thing ..."
               />

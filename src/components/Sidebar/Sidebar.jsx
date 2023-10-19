@@ -13,7 +13,7 @@ const Sidebar = () => {
 }
 
   return (
-    <div className=" xs:hidden  md:block w-[17%] h-[100dvh] left-0 px-6 rounded-r-3xl bg-white fixed z-40">
+    <div className=" xs:hidden  lg:block w-[17%] h-[100dvh] left-0 px-6 rounded-r-3xl bg-white fixed z-40">
       <div className=" w-full h-full py-8 flex justify-between flex-col">
         <div className="">
           <div className="mb-9">
@@ -24,7 +24,7 @@ const Sidebar = () => {
             </Link>
           </div>
           <div className=" flex items-center justify-center flex-col">
-            <div className=" w-[95px] h-[95px] bg-smokeWhite slate-300 ring-1 ring-navyBlue rounded-full mb-6 relative">
+            <div className=" w-[75px] h-[75px] bg-smokeWhite slate-300 ring-1 ring-navyBlue rounded-full mb-6 relative">
               <img className=" rounded-full p-1 " src={user} alt="" />
               <div className="absolute -bottom-3 right-8  top-100 flex justify-center items-center bg-navyBlue w-[25px] h-[25px] rounded-full">
                 <LiaUserEditSolid size={18} className="text-white" />

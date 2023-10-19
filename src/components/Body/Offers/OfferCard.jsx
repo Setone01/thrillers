@@ -15,7 +15,7 @@ const OfferCard = ({image, title, location, cost}) => {
           </div>
           <div className="mb-2">
             <p className="flex items-center text-sm font-medium text-gray-400">
-              <span className="mr-3">
+              <span className="mr-2">
                 <CiLocationOn size={18}/>
               </span>
               {location}

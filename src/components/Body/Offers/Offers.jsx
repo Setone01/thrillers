@@ -5,9 +5,9 @@ import { bestOffers } from "../../../Assets/defaultData";
 
 const Offers = () => {
   return (
-    <div className="w-[100%] h-max pb-8">
-      <div className=" ">
-        <div className="w-full flex justify-between mb-3">
+    <div className="w-[100%] h-max pb-8 z-20">
+      <div className="flex items-center flex-col ">
+        <div className="w-full flex justify-between items-center mb-3">
           <SubHeader Header={"Best Offer"} />
           <div className="">
             <button className="text-sm font-medium capitalize">view all</button>
